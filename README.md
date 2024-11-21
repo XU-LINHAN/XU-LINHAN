@@ -4,7 +4,10 @@
 ## About Me
 - 🎓 **Major**: Computer Engineering  
 - 💪 **Interests**: Fitness, Outdoor Activities, and Gaming  
-- 🌱 **Currently Learning**: C++ and Python  
+- 🌱 **Currently Learning**: C++ and Python....  
+
+## My Skills 🌟
+툴과 기술: [Tools and technologies,  Git, Docker, TensorFlow]
 
 ## My GitHub Stats
 ![XULINHAN's GitHub stats](https://github-readme-stats.vercel.app/api?username=XULINHAN&show_icons=true)

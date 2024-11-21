@@ -10,7 +10,7 @@
 ![XULINHAN's GitHub stats](https://github-readme-stats.vercel.app/api?username=XULINHAN&show_icons=true)
 
 ## Let's Connect!
-- 📫 Email: xulinhan@example.com
+- 📫 Email: xxkylin02@gmail.com
 - 🌐 Personal Blog: [Your Blog Link] (Optional)
 
 ---

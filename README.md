@@ -1,46 +1,137 @@
-There was an error committing your changes: A file with the same name already exists. Please choose a different name and try again.# 👋 Hi, I'm XULINHAN
+# 学生信息管理系统 README
 
-## 👨‍💻 About Me
-- 🎓 **Major**: Computer Engineering
-- 💪 **Interests**: Fitness, Outdoor Activities, Gaming
-- 🌱 **Currently Learning**: C++ and Python
-- 🏆 **Personal Goal**: Master algorithms and data structures, contribute to open-source projects, and improve my skills in C++ and Python.
+## 项目简介
 
-## 🛠️ Technical Stack
-- **Languages**: C++, Python
-- **Tools**: Git, VS Code, Linux, Jupyter Notebooks
-- **Technologies**: Machine Learning, Data Analysis, Web Development (Beginner)
+本项目是一个学生信息管理系统，旨在提供一个全面、易用且高效的学生信息管理平台。系统包括学生信息的录入、查询、编辑和删除等功能，方便教育工作者和行政人员对学生信息进行管理和分析。
 
-## 📚 Projects
-### 1. [Personal Portfolio Website](https://github.com/XULINHAN/portfolio)
-- Built with HTML, CSS, and JavaScript. This is my personal portfolio that showcases my development journey.
-  
-### 2. [AI Chatbot](https://github.com/XULINHAN/AI-chatbot)
-- Created a chatbot using Python and machine learning techniques to understand natural language processing.
+## 技术栈
 
-### 3. [Fitness Tracker App](https://github.com/XULINHAN/fitness-tracker)
-- Developed a fitness tracker using Python and a mobile app to log workouts, track progress, and provide recommendations.
+### 后端
 
-## 🌟 Fun Facts
-- 💡 I love problem-solving both in coding and in physical challenges like hiking and sports.
-- 🎮 Gaming is not just a hobby for me; it’s an exciting way to explore new technologies and enjoy virtual environments.
+- **编程语言**：Python 3.9+
 
----
+- **后端框架**：Django 4.x
 
-## 📬 Contact Me
-- 📧 **Email**: xxkylin02@gmail.com
-- 🧑‍💻 **GitHub**: [XULINHAN on GitHub](https://github.com/XULINHAN)
+- **数据库**：SqlLite3
 
----
+- 其他库
 
-## 📊 GitHub Stats
-![XULINHAN's GitHub stats](https://github-readme-stats.vercel.app/api?username=XULINHAN&show_icons=true&hide_title=true&hide=prs)
+  ：
 
----
+  - Django REST Framework：用于构建API
 
-## 🤝 Let's Collaborate!
-- I'm open to collaborating on open-source projects and learning with others.
-- Feel free to reach out if you'd like to work together, especially on Python or C++ related projects.
-- Looking forward to learning and building cool stuff with like-minded individuals.
+### 前端
 
-![Visitor Count](https://profile-counter.glitch.me/XULINHAN/count.svg)
+- **HTML**：HTML5
+
+- **CSS**：CSS3
+
+- **JavaScript**：ES6
+
+- **前端框架**：Bootstrap 5
+
+- 其他库
+
+  ：
+
+  - jQuery：简化JavaScript操作
+  - Chart.js：用于数据可视化
+
+## 工具和环境
+
+### 开发工具
+
+- Visual Studio Code
+- PyCharm
+
+### 版本控制系统
+
+- Git
+
+### 项目管理工具
+
+- GitHub
+
+### 虚拟环境管理
+
+- pipenv 或 virtualenv
+
+### 部署平台
+
+- Heroku 或 AWS
+
+## 系统功能
+
+1. 学生信息管理
+
+   ：
+
+   - 学生信息的录入：包括姓名、学号、性别、年龄、班级、联系方式等基本信息。
+   - 学生信息的查询：通过学号、姓名等关键信息进行查询。
+   - 学生信息的编辑：对已录入的学生信息进行修改。
+   - 学生信息的删除：删除不再需要的学生信息。
+
+2. 数据可视化
+
+   ：
+
+   - 使用Chart.js库生成学生信息的图表，如性别比例图、年龄分布图等，帮助管理者更好地了解和分析学生信息。
+
+3. API接口
+
+   ：
+
+   - 使用Django REST Framework构建API接口，提供前端或第三方应用进行数据交互。
+
+## 开发流程
+
+1. **需求分析**：明确系统的功能和性能需求。
+2. **设计**：包括数据库设计、接口设计、前端页面设计等。
+3. **开发**：根据设计文档进行前后端开发。
+4. **测试**：对系统进行单元测试、集成测试和用户验收测试。
+5. **部署**：将系统部署到Heroku或AWS等平台上。
+6. **维护**：对系统进行定期维护和更新，修复漏洞和添加新功能。
+
+## 使用说明
+
+1. 环境搭建
+
+   ：
+
+   - 安装Python 3.9+和必要的开发工具（Visual Studio Code或PyCharm）。
+   - 使用pipenv或virtualenv创建虚拟环境，并安装Django和其他依赖库。
+   - 配置数据库（SqlLite3默认已包含在Django中，无需额外安装）。
+
+2. 运行项目
+
+   ：
+
+   - 在虚拟环境中运行`python manage.py migrate`进行数据库迁移。
+   - 运行`python manage.py runserver`启动Django开发服务器。
+   - 打开浏览器，访问`http://127.0.0.1:8000/`即可查看和使用系统。
+
+3. API接口调用
+
+   ：
+
+   - 通过Django REST Framework提供的API接口进行数据交互，具体接口文档可参考项目中的API文档。
+
+## 贡献者指南
+
+1. **代码风格**：遵循PEP 8 Python代码风格指南。
+2. **分支管理**：使用Git进行版本控制，遵循Git Flow分支管理策略。
+3. **代码审查**：提交代码前请进行代码审查，确保代码质量和可读性。
+4. **测试**：新增功能或修改现有功能时，请编写相应的单元测试，确保功能的正确性和稳定性。
+
+## 联系我们
+
+如有任何问题或建议，请通过以下方式联系我们：
+
+- GitHub项目页面：[项目链接]
+- 邮箱： xxkylin02@gmail.com
+
+感谢您的关注和使用！
+
+------
+
+**注意**：请根据实际情况填写“项目链接”和“联系人邮箱”等具体信息。
